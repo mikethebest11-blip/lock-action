@@ -1,0 +1,8 @@
+name: LockAction
+description: lockfile lab action
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "ACTION-MARKER-V1"
+    - uses: mikethebest11-blip/lock-dep@main
