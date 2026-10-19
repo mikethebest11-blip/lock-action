@@ -4,5 +4,5 @@ runs:
   using: composite
   steps:
     - shell: bash
-      run: echo "ACTION-MARKER-V1"
+      run: echo "ACTION-MARKER-V2"
     - uses: mikethebest11-blip/lock-dep@main
