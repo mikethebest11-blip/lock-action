@@ -5,4 +5,4 @@ jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo REUSE-MARKER-V2
+      - run: echo REUSE-MARKER-V2B-MOVED
